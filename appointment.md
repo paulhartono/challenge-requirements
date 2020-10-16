@@ -1,6 +1,6 @@
 # Appointment Code Challnge
 
-## Requirements
+## Submission Requirements
 
 1. Write code and tests to satisfy the problem outlined below.
 2. Link to your git repository
