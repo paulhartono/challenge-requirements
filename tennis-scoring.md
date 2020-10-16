@@ -74,5 +74,5 @@ Notes on implementation:
 - Your code must be testable
 - Your code must run
 - Please include README.md files on your repository with details how to run, test and any configuration required.
-- Dockerise your solution will add some bonus
+- (Optional) Dockerise your solution will add some bonus
 - When you've finished, send through the link to your public git repository. Happy coding :)
