@@ -1,4 +1,4 @@
-# Toy Robot Challenge
+# Toy Robot Challenge (Easy Version)
 
 - The application is a simulation of a toy robot moving on a square tabletop, of dimensions 5 units x 5 units.
 - There are no other obstructions on the table surface.
