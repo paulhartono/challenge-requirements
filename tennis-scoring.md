@@ -66,15 +66,18 @@ The interface should look something like this in Java:
  
 ```
 
-Notes on implementation:
+### Notes on implementation:
 
-- use any language that you like
+- The solution can be provided in any language and any paradigm you feel comfortable with. However, we advise you choose a language relevant to the position you are applying for.
 - try not to spend too much time. (We don't want you to lose a weekend over this!)
-- don't build guis etc, we're more interested in your approach to solving the given task, not how shiny it looks
+- don't build GUIs etc, we're more interested in your approach to solving the given task, not how shiny it looks
 - don't worry about making a command line interface to the application
 - don't use any frameworks or any external package module or library (unless it's for testing or build/dependency mgt)
-- Your code must be testable
-- Your code must run
-- Please include README.md files on your repository with details how to run, test and any configuration required.
-- (Optional) Dockerise your solution will add some bonus
-- When you've finished, send through the link to your public git repository. Happy coding :)
+
+
+### What to include in your submission
+- send through the link to your public git repository
+- Your app must run
+- README.md - it should provide a clear how to setup and run your app
+- Appropriate unit and/or integration tests included with your source code (these should be runnable)
+- (Optional) Dockerise your solution
