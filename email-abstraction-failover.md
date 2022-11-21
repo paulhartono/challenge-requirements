@@ -8,8 +8,8 @@ the services goes down, your service can quickly failover to a different provide
 customers.
 
 Example of Email Providers:
-- Mailgun 
-- SendGrid 
+- Mailgun (https://documentation.mailgun.com/en/latest/api-intro.html#base-url-1)
+- SendGrid (https://docs.sendgrid.com/for-developers/sending-email/api-getting-started)
 
 Above services are free to try. You may choose alternative email providers that have API integration.
 Your solution should cater for multiple email recipients, CCs and BCCs but there is no need to support
@@ -19,11 +19,12 @@ The solution _**should be implemented**_ as one or more **RESTful API** calls (s
 below):
 - No authentication is required for the scope of this exercise
 - No 3rd party client library should be used to integrate with Mailgun, Sendgrid or other providers. 
+- If you are running out of time, you may just implement the integration to one of the provider you choose, and you may hardcode the response from the other provider (the idea, we wanted to see how would you deal with 2 different providers where each has different HTTP request/response paylooad types).
 
 A simple HTTP client of choice can be used to handcraft HTTP requests to the email gateway services.
 
 ## SCOPE
-Non-crucial features can be left unimplemented and listed in the TODO section of the readme file. Be
+Non-crucial features can be left unimplemented and listed in the `TODO` section of the readme file. Be
 ready to discuss the production readiness of you solution in your job interview (what's missing / why
 etc)
 We respect your time and don't want you spending more than a few hours on this challenge.
@@ -52,4 +53,4 @@ prepared to answer questions so that we get a feel for your testing skills.
 ## Submission Requirements
 - Please upload your solution and provide a link to your git repository
 - include a README.md file with info on how to build, test and deploy.
-- Please deploy your solution somewhere (URL) to play with it.
+- Nice to have: Please deploy your solution somewhere (URL) to play with it.
