@@ -47,8 +47,7 @@ README explain why it is missing?
 or other red flags? Does object-oriented code follows principles such as the single responsibility
 principle? Is the coding style consistent with the language's guidelines? Is it consistent throughout the
 codebase?
-- **Testing**: Your code must be testable. If you run out of time and cannot add the necessary testing be
-prepared to answer questions so that we get a feel for your testing skills.
+- **Testing**: Your code **must be testable**. PLease demostrate area where testing is needed (you don't have to cover 100% test coverage) so that we get a feel for your testing skills. Comment on what sort of test strategy you would do, for other parts of the code
 
 ## Submission Requirements
 - Please upload your solution and provide a link to your git repository
